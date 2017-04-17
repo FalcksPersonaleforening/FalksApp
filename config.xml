@@ -15,9 +15,6 @@
     <access origin="sms:*" launch-external="yes"/>
     <access origin="market:*" launch-external="yes"/>
     
-    <allow-intent href="*"/>
-    <allow-navigation href="*" />
-    
     <plugin name="cordova-plugin-whitelist" source="npm" />
     
     <preference name="phonegap-version" value="cli-6.4.0" />
