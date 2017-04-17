@@ -53,13 +53,17 @@ body {
 .app {
          padding-top: 0px;
     }
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-     .app {
-        width: 630px;
-         padding-top: 20px;
-    }
 
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) {
+    height: auto;
+    width: 100%;
+}
+
+/* Potrait layout (with min-width) */
+@media screen and (max-aspect-ratio: 1/1) {
+    height: 100%;
+    width: auto;
 }
 
 

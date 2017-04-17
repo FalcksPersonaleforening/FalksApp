@@ -146,6 +146,17 @@ body {
          padding-top: 20px;
     }
 
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) {
+    height: auto;
+    width: 100%;
+}
+
+/* Potrait layout (with min-width) */
+@media screen and (max-aspect-ratio: 1/1) {
+    height: 100%;
+    width: auto;
+}
 
 .event {
     border-radius:4px;
