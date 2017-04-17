@@ -1,12 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="falckpf.dk" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>FalckPersonale</name>
-    <description>
-        App for Falcks Personaleforening.
-    </description>
-    <author>
-        Julie Alexandersen
-    </author>
     <content src="index.html" />
     <access origin="*" />
     <access origin="tel:*" launch-external="yes"/>
@@ -14,6 +8,9 @@
     <access origin="mailto:*" launch-external="yes"/>
     <access origin="sms:*" launch-external="yes"/>
     <access origin="market:*" launch-external="yes"/>
+    
+    <allow-intent href="*"/>
+    <allow-navigation href="*" />
     
     <plugin name="cordova-plugin-whitelist" source="npm" />
     
