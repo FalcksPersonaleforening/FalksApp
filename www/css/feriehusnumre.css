@@ -60,12 +60,11 @@ ul{
 
 }
 #oversigt ul div{
-    display:inline;
     font-weight: 200;
     padding: 4px 0px 3px 15px;
 }
 #oversigt li span h2 {
-
+    display: block;
     padding: 5px 0px 5px 10px;
     
 }
