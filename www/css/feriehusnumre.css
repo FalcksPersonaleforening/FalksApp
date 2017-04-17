@@ -33,7 +33,7 @@
 h1{
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif; 
     background-color: #0f4277;
-    font-size:2vw;
+    font-size:5vw;
     font-weight:bold;
     margin:0px;
     overflow:visible;
@@ -72,7 +72,7 @@ ul{
 
 
 li{
-    font-size: 1vw;
+    font-size: 3vw;
     list-style-type: none;
     list-style-position: inside;
     border-bottom: 0.1vw groove white;
@@ -81,20 +81,17 @@ li{
 }
 a:link{
     color: white;
-    background-color:;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 3vw;
     width: 100%;
 }
 a:visited link{
-    color: white;
     text-decoration: none;
 }
 #oversigt ul li ul li {
-
     background-color: #114479; 
-    width: 16vw;
+    width: 50vw;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 10px; 
@@ -133,7 +130,7 @@ body {
     background-size: cover;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:1vw;
+    font-size:4vw;
     height:100%;
     margin:0px;
     padding:0px;
