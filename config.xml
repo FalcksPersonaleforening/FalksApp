@@ -10,6 +10,7 @@
     <access origin="market:*" launch-external="yes"/>
     
     <plugin name="cordova-plugin-whitelist" source="npm" />
+    <plugin name="cordova-plugin-calendar" source="npm" />
     
     <preference name="phonegap-version" value="cli-6.5.0" />
     
