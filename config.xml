@@ -11,10 +11,15 @@
     
     <icon src="res/logo.png"/>
     
+    <feature name="Calendar">
+        <param name="android-package" value="nl.xservices.plugins.Calendar" />
+    </feature>
+    
     <plugin name="cordova-plugin-whitelist" source="npm" />
     <plugin name="cordova-plugin-calendar" source="npm" />
     
     <preference name="phonegap-version" value="cli-6.5.0" />
+    <preference name="android-build-tool" value="gradle" />
     
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' gap://ready file://* 'unsafe-inline' *; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; img-src *"/>
 </widget>

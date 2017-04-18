@@ -28,7 +28,6 @@
     bottom: 160px;
     text-align: center;
     width: 100%;
-    font-size: 3vw;
 }
 
 h1{
@@ -148,7 +147,7 @@ h1 {
     width: 40px;
     font-weight: bold;
     color: #FFFFFF;
-    padding: 2.25vw;
+    padding: 2vw;
 }
 a:link {
     text-decoration: none;
