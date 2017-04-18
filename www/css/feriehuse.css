@@ -42,7 +42,7 @@ body {
     background-size: cover;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:1vw;
+    font-size:3vw;
     height:100%;
     margin:0px;
     padding:0px;
@@ -68,7 +68,7 @@ body {
 
 
 h1 {
-    font-size:3vw;
+    font-size:5vw;
     font-weight:normal;
     margin:0px;
     overflow:visible;
@@ -124,7 +124,7 @@ h1 {
     width: 100%;
     background-color: black;
     text-align: center;
-    height: 15px;
+    height: 5vw;
     padding: 5px 0px 5px 0px;
 }
 #menubar li{
@@ -139,5 +139,5 @@ a:link {
     text-decoration: none;
     color: #FFFFFF;
     
-    font-size: 1.2vw;
+    font-size: 3vw;
 }
