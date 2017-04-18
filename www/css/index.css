@@ -20,7 +20,7 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 #dato{
-    font-size: 8vw;
+    font-size: 7vw;
     background-color:rgba(0, 0, 0, 0.5);    
 }
 #footer{
@@ -140,11 +140,8 @@ h1 {
 }
 #menubar li{
     display: inline;
-
-    
 }
 #menubar a:link, a:visited {
-    width: 40px;
     font-weight: bold;
     color: #FFFFFF;
     padding: 2vw;
