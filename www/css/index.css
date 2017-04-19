@@ -25,7 +25,7 @@
 }
 #footer{
     position: absolute;
-    bottom: 160px;
+    bottom: 10%;
     text-align: center;
     width: 100%;
 }
@@ -55,15 +55,15 @@ body {
 .app {
     background:url(../img/Fp.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:49%;
+    left:45%;
     top:25%;
-    height:50px;                   /* text area height */
-    width:20vw;                   /* text area width */
+    height:50vw;                   /* text area height */
+    width:30vw;                   /* text area width */
     text-align:center;
-    padding:200px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+    padding:30vw 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-20% 0px 0px -10%;  /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
-    background-size: 200px 200px;
+    background-size: 30vw 30vw;
 }
 
 /* Landscape layout (with min-width) */
@@ -135,7 +135,7 @@ h1 {
     width: 100%;
     background-color: black;
     text-align: center;
-    height: 80px;
+    height: 10vw;
     padding: 5px 0px 10px 0px;
 }
 #menubar li{
