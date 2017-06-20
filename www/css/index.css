@@ -20,7 +20,7 @@
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 #dato{
-    font-size: 7vw;
+    font-size: 10vw;
     background-color:rgba(0, 0, 0, 0.5);    
 }
 #footer{
@@ -42,7 +42,7 @@ body {
     background-size: cover;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:2.5vw;
+    font-size:6vw;
     height:100%;
     margin:0px;
     padding:0px;
@@ -55,10 +55,10 @@ body {
 .app {
     background:url(../img/Fp.png) no-repeat center top; /* 170px x 200px */
     position:absolute;             /* position in the center of the screen */
-    left:45%;
+    left:30%;
     top:25%;
     height:50vw;                   /* text area height */
-    width:30vw;                   /* text area width */
+    width:60vw;                   /* text area width */
     text-align:center;
     padding:30vw 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
     margin:-20% 0px 0px -10%;  /* offset vertical: half of image height and text area height */
