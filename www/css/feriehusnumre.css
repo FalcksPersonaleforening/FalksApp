@@ -33,7 +33,7 @@
 h1{
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif; 
     background-color: #0f4277;
-    font-size:15px;
+    font-size:6vw;
     font-weight:bold;
     margin:0px;
     overflow:visible;
@@ -61,47 +61,42 @@ ul{
 }
 #oversigt ul div{
     font-weight: 200;
-    background-color: #114479;
     padding: 4px 0px 3px 15px;
 }
 #oversigt li span h2 {
-
     padding: 5px 0px 5px 10px;
     
 }
 
 
 li{
-    font-size: 10px;
+    font-size: 5vw;
     list-style-type: none;
     list-style-position: inside;
-    border-bottom: 1px groove white;
+    border-bottom: 0.1vw groove white;
 
 
 }
 a:link{
     color: white;
-    background-color:;
     text-decoration: none;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 5vw;
     width: 100%;
 }
 a:visited link{
-    color: white;
     text-decoration: none;
 }
 #oversigt ul li ul li {
-
-    background-color: #114479; 
-    width: 160px;
+    background-color: #0f5196;
+    width: 50vw;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 10px; 
 }
 #oversigt ul li ul li a{
     padding-right: 5px;
-    background-color: #114479; 
+    background-color: #0f5196; 
     margin-bottom: 10px;
 }
 
@@ -123,17 +118,16 @@ a{
     text-align: left;
 }
 
-
 body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-image:url(../img/blue.png);
+    background-color: #145aa0;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:6vw;
     height:100%;
     margin:0px;
     padding:0px;
@@ -146,6 +140,17 @@ body {
          padding-top: 20px;
     }
 
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) {
+    height: auto;
+    width: 100%;
+}
+
+/* Potrait layout (with min-width) */
+@media screen and (max-aspect-ratio: 1/1) {
+    height: 100%;
+    width: auto;
+}
 
 .event {
     border-radius:4px;

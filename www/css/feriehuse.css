@@ -37,12 +37,12 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-image:url(../img/blue.png);
+    background-color: #145aa0;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment:fixed;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
-    font-size:12px;
+    font-size:6vw;
     height:100%;
     margin:0px;
     padding:0px;
@@ -53,18 +53,22 @@ body {
 .app {
          padding-top: 0px;
     }
-/* Landscape layout (with min-width) */
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-     .app {
-        width: 630px;
-         padding-top: 20px;
-    }
 
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) {
+    height: auto;
+    width: 100%;
+}
+
+/* Potrait layout (with min-width) */
+@media screen and (max-aspect-ratio: 1/1) {
+    height: 100%;
+    width: auto;
 }
 
 
 h1 {
-    font-size:24px;
+    font-size:5vw;
     font-weight:normal;
     margin:0px;
     overflow:visible;
@@ -120,12 +124,11 @@ h1 {
     width: 100%;
     background-color: black;
     text-align: center;
-    height: 15px;
+    height: 5vw;
     padding: 5px 0px 5px 0px;
 }
 #menubar li{
-    display: inline;
-   
+    display: inline;   
 }
 #menubar a:link, a:visited {
     font-weight: bold;
@@ -135,4 +138,6 @@ h1 {
 a:link {
     text-decoration: none;
     color: #FFFFFF;
+    
+    font-size: 3vw;
 }

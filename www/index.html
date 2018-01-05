@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="utf-8" />
@@ -7,11 +6,9 @@
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
         <script src="phonegap.js"></script>
     </head>
-    <body style="background-image:background.png">
-         
+    <body style="background-image:background.png">  
         <div class="app">
            <div id="dato">2018</div>
             <p style="line-height: 150%">Odensevej 48 <br>
@@ -20,17 +17,18 @@
                 E-mail: fp@falckpf.dk</p>
         </div>
         <div id="footer">
-            <footer class="site-footer"><a href="html/information.html"><img  style="width: 20px; vertical-align: middle;" src="img\i.png"/>nformation</a></footer>
+            <footer class="site-footer"><a href="content/information.html"><img  style="width: 5%; vertical-align: middle;" src="img\i.png"/>nformation</a></footer>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/calendar.js"></script>
         
         <div id="menubar">   
             <ul>
-                <li><a href=""><img src="img\kal.png" width="40"></a></li>
-                <li><a href="html/feriehus.html"><img src="img\feriehus.png" width="40"></a></li>
-                <li><a href="html/flagdage.html"><img src="img\flag.png" width="40"></a></li>
-                <li><a href="html/TelefonNum.html"><img src="img\tlf.png" width="40"></a></li>
+                <li><a><img src="img\kal.png" width="10%" onclick="window.plugins.calendar.openCalendar()"></a></li>
+                <li><a href="content/feriehus.html"><img src="img\feriehus.png" width="10%"></a></li>
+                <li><a href="content/flagdage.html"><img src="img\flag.png" width="10%"></a></li>
+                <li><a href="content/TelefonNum.html"><img src="img\tlf.png" width="10%"></a></li>
             </ul>
         </div>
 
